@@ -1,0 +1,60 @@
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url(../fonts/Orbitron/Orbitron-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Orbitron';
+    scroll-behavior: smooth;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1376px;
+    margin: 0 auto;
+    padding: 0px;
+}
+#header {
+    padding: 20px 0px;
+    background-image: linear-gradient(#000 0% 100%);
+}
+#home{
+    padding: 250px 0px;
+    background-image: linear-gradient(#000 0% 100%);
+}
+#shop_gaming {
+    padding: 135px 0px 130px;
+    background-image: url(../img/wop_gaming.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#new_era {
+    padding: 120px 0px;
+    background-image: linear-gradient(to right, #000 0% 100%);
+}
+
+#news{
+    padding: 81px 0px 86px;
+    background-image: linear-gradient(to right, #000 0% 100%);
+}
+
+/* ---------DARK-LIGHT---------- */
+
+
+.light body {
+    background-color: #57B8FF;
+}

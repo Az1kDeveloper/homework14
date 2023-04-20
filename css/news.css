@@ -1,0 +1,121 @@
+
+
+.fire_future {
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.fire_future > span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #57B8FF;
+}
+
+.latest_news_text_and_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.latest_text {
+    width: 541px;
+}
+.latest_text > h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.btn_read_more {
+    padding: 21px 34px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    border: 1px solid #57B8FF;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.btn_read_more:hover{
+    background-color: #57B8FF;
+}
+
+
+.new_img_boxe3 {
+    width: 100%;
+    margin-top: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.f1rst_left_box {
+    width: 650px;
+    padding: 5px;
+    /* height: 515px; */
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+.f1rst_left_box:hover{
+    box-shadow: 0px 0px 0px 3px white;
+}
+
+.f1rst_left_box > span {
+    margin: 54px 0px 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #57B8FF;
+}
+.f1rst_left_box > h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.right_box {
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+.four_right_box {
+    margin-bottom: 10px;
+    padding: 0px 5px;
+    height: 395px;
+    width: 315px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.four_right_box:hover{
+    box-shadow: 0px 0px 0px 3px white;
+}
+.four_right_box > span {
+    margin: 20px 0px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #57B8FF;
+}
+.four_right_box > h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
