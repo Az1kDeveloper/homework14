@@ -1,0 +1,31 @@
+
+#site_games {
+    display: flex;
+    
+}
+.games_part {
+    width: calc(100% / 3);
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smooth {
+    background-image: url("../img/smooth-fps_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.multiplayer {
+    background-image: url("../img/multiplayer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.op_world {
+    background-image: url("../img/open_world.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

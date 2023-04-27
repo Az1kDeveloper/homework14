@@ -11,3 +11,19 @@ modeBtn.addEventListener("click", function () {
   }
   document.body.classList.toggle("light");
 });
+
+
+
+window.addEventListener("scroll", function () {
+  toggleBacktop();
+});
+
+let backtop = document.getElementById("backtop");
+
+function toggleBacktop() {
+  if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+    backtop.style.bottom = "50px";
+  } else {
+    backtop.style.bottom = "-50px";
+  }
+}

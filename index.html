@@ -5,121 +5,198 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HOMEWORK_13</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav id="header">
+    <button id="backtop">
+      <a href="#"><img src="./img/backtop.svg" alt="backtop" /></a>
+    </button>
+    <nav id="header" class="head">
       <div class="container navbar_sect">
         <div>
           <img src="./img/nav_logo.svg" alt="nav_logo" />
         </div>
         <div class="nav_list_links_part">
           <ul class="nav_list">
-            <li class="list_item"><a class="list_link" href="#home">Home</a></li>
-            <li class="list_item"><a class="list_link" href="#news">About</a></li>
-            <li class="list_item"><a class="list_link" href="#news">Team</a></li>
-            <li class="list_item"><a class="list_link" href="#shop_gaming">Shop</a></li>
+            <li class="list_item">
+              <a class="list_link" href="#home">Home</a>
+            </li>
+            <li class="list_item">
+              <a class="list_link" href="#news">About</a>
+            </li>
+            <li class="list_item">
+              <a class="list_link" href="#news">Team</a>
+            </li>
+            <li class="list_item">
+              <a class="list_link" href="#shop_gaming">Shop</a>
+            </li>
             <li class="list_item"><a class="list_link" href="#">Pages</a></li>
+            <button class="btn_contact contAct">Contact Us</button>
           </ul>
         </div>
-        
+
         <div class="nav_btn_img">
           <button id="dark-light">
             <img src="./img/light.svg" alt="light" />
-        </button>
-          <button class="btn_contact">
-            Contact Us
           </button>
+          <button class="btn_contact">Contact Us</button>
+
         </div>
       </div>
     </nav>
 
     <main>
-
       <section id="home">
         <div class="container home_flex_box">
           <div class="home_left_part">
-           <div class="img_and_future_text">
-            <img src="./img/fire.svg" alt="fire">
-            <span>FUTURE OF eSPORTS</span>
-           </div>
+            <div class="img_and_future_text">
+              <img src="./img/fire.svg" alt="fire" />
+              <span>FUTURE OF eSPORTS</span>
+            </div>
             <h1>Unleash the Next Generation of Gaming</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, nec donec in morbi pulvinar. Enim non pulvinar neque.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis,
+              nec donec in morbi pulvinar. Enim non pulvinar neque.
+            </p>
             <button>Explore More</button>
             <button>View our team</button>
           </div>
           <div>
-            <img src="./img/home_img.png" alt="PUBG_game">
+            <img src="./img/home_img.png" alt="PUBG_game" />
+          </div>
+        </div>
+      </section>
+
+      <section id="sponsors">
+        <div class="container sponsors_part">
+          <div class="sponsors_top_part">
+            <div class="our_sponsors_and_vector_line">
+              <h2>Our Sponsors</h2>
+            <img src="./img/Vector.png" alt="_blue_line">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, nec donec in morbi pulvinar. Enim non pulvinar neque.</p>
+          </div>
+
+          <div class="sponsors_bottom_part">
+            <img src="./img/ideaa.svg" alt="ideaa">
+            <img src="./img/amara.svg" alt="amara">
+            <img src="./img/lightAl.svg" alt="lightAl">
+            <img src="./img/circle.svg" alt="circle">
+            <img src="./img/muzicaa.svg" alt="music">
+            <img src="./img/lightAl.svg" alt="lightAl">
           </div>
         </div>
       </section>
 
       <section id="shop_gaming">
-          <div class="container">
+        <div class="container">
+          <div class="wop_gaming_text_part">
+            <div class="img_and_future">
+              <img src="./img/fire.svg" alt="fire" />
+              <span>FUTURE OF eSPORTS</span>
+            </div>
+            <h2>Your one stop shop gaming needs!</h2>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam
+            </p>
+          </div>
 
-            <div class="wop_gaming_text_part">
-              <div class="img_and_future">
-                <img src="./img/fire.svg" alt="fire">
-                <span>FUTURE OF eSPORTS</span>
-               </div>
-               <h2>Your one stop shop gaming needs!</h2>
-               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+          <div class="wrapper_four_box">
+            <div class="box_in_icon_and_text">
+              <img src="./img/kirpic.svg" alt="kirpic" />
+              <div class="four_boxe3">
+                <h3>All New Gameplay</h3>
+                <p>
+                  Vivamus magna justo, lacinia eget coecetur sed, convallis at
+                  tellus. Curabitur non nulla sit Vestibum ante ipsum primis in
+                  faucibus orci
+                </p>
+              </div>
             </div>
 
-            <div class="wrapper_four_box">
-
-              <div class="box_in_icon_and_text">
-                <img src="./img/kirpic.svg" alt="kirpic">
-                <div class="four_boxe3">
-                  <h3>All New Gameplay</h3>
-                  <p>Vivamus magna justo, lacinia eget coecetur sed, convallis at tellus. Curabitur non nulla sit Vestibum ante ipsum primis in faucibus orci</p>
-                </div>
+            <div class="box_in_icon_and_text">
+              <img src="./img/kirpic.svg" alt="kirpic" />
+              <div class="four_boxe3">
+                <h3>Generation Graphics</h3>
+                <p>
+                  Vivamus magna justo, lacinia eget coecetur sed, convallis at
+                  tellus. Curabitur non nulla sit Vestibum ante ipsum primis in
+                  faucibus orci
+                </p>
               </div>
+            </div>
 
-              <div class="box_in_icon_and_text">
-                <img src="./img/kirpic.svg" alt="kirpic">
-                <div class="four_boxe3">
-                  <h3>Generation Graphics</h3>
-                  <p>Vivamus magna justo, lacinia eget coecetur sed, convallis at tellus. Curabitur non nulla sit Vestibum ante ipsum primis in faucibus orci</p>
-                </div>
+            <div class="box_in_icon_and_text">
+              <img src="./img/kirpic.svg" alt="kirpic" />
+              <div class="four_boxe3">
+                <h3>Lastest Game Enginey</h3>
+                <p>
+                  Vivamus magna justo, lacinia eget coecetur sed, convallis at
+                  tellus. Curabitur non nulla sit Vestibum ante ipsum primis in
+                  faucibus orci
+                </p>
               </div>
+            </div>
 
-              <div class="box_in_icon_and_text">
-                <img src="./img/kirpic.svg" alt="kirpic">
-                <div class="four_boxe3">
-                  <h3>Lastest Game Enginey</h3>
-                  <p>Vivamus magna justo, lacinia eget coecetur sed, convallis at tellus. Curabitur non nulla sit Vestibum ante ipsum primis in faucibus orci</p>
-                </div>
+            <div class="box_in_icon_and_text">
+              <img src="./img/kirpic.svg" alt="kirpic" />
+              <div class="four_boxe3">
+                <h3>Multiplayer on the go</h3>
+                <p>
+                  Vivamus magna justo, lacinia eget coecetur sed, convallis at
+                  tellus. Curabitur non nulla sit Vestibum ante ipsum primis in
+                  faucibus orci
+                </p>
               </div>
-
-              <div class="box_in_icon_and_text">
-                <img src="./img/kirpic.svg" alt="kirpic">
-                <div class="four_boxe3">
-                  <h3>Multiplayer on the go</h3>
-                  <p>Vivamus magna justo, lacinia eget coecetur sed, convallis at tellus. Curabitur non nulla sit Vestibum ante ipsum primis in faucibus orci</p>
-                </div>
-              </div>
-
             </div>
           </div>
+        </div>
       </section>
 
       <section id="new_era">
         <div class="container new_era_flex_box">
           <div class="new_era_left_part">
-           <div class="img_and_new_era_text">
-            <img src="./img/fire.svg" alt="fire">
-            <span>FUTURE OF eSPORTS</span>
-           </div>
-           <h1>The new era of cloud gaming here</h1>
-           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia</p>
+            <div class="img_and_new_era_text">
+              <img src="./img/fire.svg" alt="fire" />
+              <span>FUTURE OF eSPORTS</span>
+            </div>
+            <h1>The new era of cloud gaming here</h1>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+            </p>
             <button>Explore More</button>
-            
           </div>
           <div class="new_era_video_play">
             <button class="play_video_img">
-              <img width="129" height="129" src="./img/play_video.svg" alt="play_video"> 
+              <img
+                width="129"
+                height="129"
+                src="./img/play_video.svg"
+                alt="play_video"
+              />
             </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="site_games">
+        <div class="games_part smooth">
+          <div>
+            <img src="./img/smooth-fps_2.svg" alt="">
+          </div>
+        </div>
+        <div class="games_part multiplayer">
+          <div>
+            <img src="./img/multiplayer_2.svg" alt="">
+          </div>
+        </div>
+        <div class="games_part op_world">
+          <div>
+            <img src="./img/open_world_2.svg" alt="">
           </div>
         </div>
       </section>
@@ -128,7 +205,7 @@
         <div class="container">
           <div>
             <div class="fire_future">
-              <img src="./img/fire.svg" alt="fire">
+              <img src="./img/fire.svg" alt="fire" />
               <span>FUTURE OF eSPORTS</span>
             </div>
 
@@ -141,47 +218,86 @@
           </div>
 
           <div class="new_img_boxe3">
-
             <div class="f1rst_left_box">
-              <img width="648" height="510" src="./img/new_f1_left_img.png" alt="Esports_Group">
+              <img
+                width="648"
+                height="510"
+                src="./img/new_f1_left_img.png"
+                alt="Esports_Group"
+              />
               <span>April 2, 2021</span>
               <h4>Esports Group teams up with the Indianapolis Colts</h4>
             </div>
 
             <div class="right_box">
-
               <div class="four_right_box">
-                <img width="312" height="189" src="./img/new_r1_right_img.png" alt="NAVI">
+                <img
+                  width="312"
+                  height="189"
+                  src="./img/new_r1_right_img.png"
+                  alt="NAVI"
+                />
                 <span>April 2, 2021</span>
                 <h4>NAVI reveals s1mple fifth anniversary</h4>
               </div>
 
               <div class="four_right_box">
-                <img width="312" height="189" src="./img/new_r2_right_img.png" alt="A1esports">
+                <img
+                  width="312"
+                  height="189"
+                  src="./img/new_r2_right_img.png"
+                  alt="A1esports"
+                />
                 <span>April 2, 2021</span>
                 <h4>A1esports Shares new picture</h4>
               </div>
 
               <div class="four_right_box">
-                <img width="312" height="189" src="./img/new_r3_right_img.png" alt="T1">
+                <img
+                  width="312"
+                  height="189"
+                  src="./img/new_r3_right_img.png"
+                  alt="T1"
+                />
                 <span>April 2, 2021</span>
                 <h4>T1 unveil partnership with Razer</h4>
               </div>
 
               <div class="four_right_box">
-                <img width="312" height="189" src="./img/new_r4_right_img.png" alt="RX">
+                <img
+                  width="312"
+                  height="189"
+                  src="./img/new_r4_right_img.png"
+                  alt="RX"
+                />
                 <span>April 2, 2021</span>
                 <h4>RX secures content partnership with</h4>
               </div>
-
             </div>
-
           </div>
         </div>
       </section>
 
-      <script src="./js/main.js"></script>
     </main>
-    
+
+    <footer>
+      <div class="container footer_site">
+        <div class="foot_top_part">
+          <div class="foot_text_and_vector_line">
+            <h2>Join the largest gaming community</h2>
+            <img src="./img/Vector2.svg" alt="blue_vector">
+          </div>
+          <p>Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus
+            lectus. Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesu ada feugiat. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo
+          </p>
+        </div>
+         <form class="register" action="#">
+          <input id="e-mail" autocomplete="off" required placeholder="Your Email Address" type="email">
+
+          <button>Subscribe Now</button>
+         </form>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>

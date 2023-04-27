@@ -25,15 +25,21 @@ button:hover{
 .container {
     max-width: 1376px;
     margin: 0 auto;
-    padding: 0px;
+    padding: 0px 20px;
 }
 #header {
     padding: 20px 0px;
     background-image: linear-gradient(#000 0% 100%);
+    /* background-color: #000; */
 }
 #home{
     padding: 250px 0px;
     background-image: linear-gradient(#000 0% 100%);
+    /* background-color: #000; */
+}
+#sponsors{
+    padding: 130px 0px 130px;
+    background-color: #FDD04A;
 }
 #shop_gaming {
     padding: 135px 0px 130px;
@@ -44,17 +50,43 @@ button:hover{
 }
 #new_era {
     padding: 120px 0px;
+    /* background-color: #000; */
     background-image: linear-gradient(to right, #000 0% 100%);
 }
 
 #news{
     padding: 81px 0px 86px;
+    /* background-color: #000; */
     background-image: linear-gradient(to right, #000 0% 100%);
+}
+
+footer {
+    background: url("../img/footer_img.png");
+    padding: 125px 0px 135px;
 }
 
 /* ---------DARK-LIGHT---------- */
 
-
-.light body {
-    background-color: #57B8FF;
+.light #header {
+    background-image: linear-gradient(to right, #59B9FF 0% 100%);
 }
+
+#backtop {
+    position: fixed;
+    bottom: -60px;
+    right: 15px;
+    font-size: 25px;
+    border-radius: 50%;
+    color: white;
+    background-color: transparent;
+    border: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }

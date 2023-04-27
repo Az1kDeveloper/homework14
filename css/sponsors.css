@@ -1,0 +1,44 @@
+
+.sponsors_part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsors_top_part {
+    width: 576px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our_sponsors_and_vector_line {
+    width: 374px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.our_sponsors_and_vector_line > h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222730;
+}
+.sponsors_top_part > p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #555555;
+}
+
+.sponsors_bottom_part {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

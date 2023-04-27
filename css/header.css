@@ -47,7 +47,9 @@
     color: #FAC422;
     border: 1px solid #FAC422;
  }
-
+.contAct {
+    display: none;
+}
 
  /* -----------HOME_SECTION------------ */
 
